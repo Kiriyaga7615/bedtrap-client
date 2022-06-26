@@ -1,0 +1,53 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bedtrap.development.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerInteractionManagerAccessor",
+    "IChatHud",
+    "IEntityVelocityUpdateS2CPacketAccessor",
+    "IExplosionS2CPacketAccessor",
+    "IPlayerMoveC2SPacket",
+    "MinecraftClientAccessor",
+    "MixinClientConnection",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientWorld",
+    "MixinGameRenderer",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinMinecraftClient",
+    "MixinRenderTickCounter",
+    "PlayerPositionLookS2CPacketAccessor",
+    "WorldRendererAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "IEntityTrackingSectionAccessor",
+    "IHeldItemRendererAccessor",
+    "ISectionedEntityCacheAccessor",
+    "ISimpleEntityLookupAccessor",
+    "IWorldAccessor",
+    "MixinBackgroundRenderer",
+    "MixinBlockItem",
+    "MixinBox",
+    "MixinClientPlayNetworkHandler",
+    "MixinEntity",
+    "MixinEntityRenderer",
+    "MixinExplosion",
+    "MixinFireworksSparkParticle",
+    "MixinHeldItemRenderer",
+    "MixinInGameOverlayRenderer",
+    "MixinLivingEntity",
+    "MixinLivingEntityRenderer",
+    "MixinParticleManager",
+    "MixinRaycastContext",
+    "MixinVec3d",
+    "MixinWorldChunk",
+    "MixinWorldRenderer",
+    "RenderEntityDispatcherMixin"
+  ]
+}

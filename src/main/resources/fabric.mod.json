@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bedtrap",
+  "version": "${version}",
+  "name": "BedTrap",
+  "description": "Откуда у тебя этот джар!",
+  "authors": [
+    "Kiriyaga",
+    "EurekaEffect",
+    "Ya_Pank"
+  ],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "bedtrap.development.BedTrap"
+    ]
+  },
+  "mixins": [
+    "bedtrap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
